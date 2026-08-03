@@ -1,0 +1,10 @@
+{
+  "DatabaseSettings": {
+    "DBProvider": "mssql",
+    //"ApplicationConnection": "Server=192.168.0.79, 1433;Database=COB;User ID=cob;Password=cob1!;Encrypt=True;MultipleActiveResultSets=False;Connection Timeout=30;TrustServerCertificate=True;",
+    //"BulkInsertConnection": "Server=192.168.0.79, 1433;User Id=cob;Password=cob1!;Database=COB;TrustServerCertificate=True;",
+    "ApplicationConnection": "Server=66.11.11.149; Database=COB_TEST; Trusted_Connection=false; User ID=cob; Password=cob1 !; Encrypt=false; MultipleActiveResultSets=False; ; Connection Timeout=60; ",
+    "BulkInsertConnection": "Server=66.11.11.149; Database=COB_TEST; Trusted_Connection=false; User ID=cob; Password=cob1 !; Encrypt=false; MultipleActiveResultSets=False; ; Connection Timeout=60; "
+
+  }
+}

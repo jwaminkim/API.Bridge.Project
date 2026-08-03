@@ -1,0 +1,53 @@
+{
+  "Palantir": {
+    //"Env": "Dev",
+    "Env": "Prod",
+    //"MaxTextLength": 1950,
+    //"MaxTextLength": 5000,
+    "MaxTextLength": 50000,
+    "AgentVersion": {
+      "Compare": "11.0",
+      "Discipline": "12.0"
+    },
+    "MaxParallel": 5,
+    "MaxRetry": 3,
+    "RateLimitDelaySeconds": 10,
+    "Dev": {
+      "ProxyUrl": "http://66.10.51.30:8081",
+      "Auth": {
+        "TokenUrl": "http://66.10.51.30:8081/proauthapi/token/mulesoft",
+        "ClientId": "f96b794ac59b4e42a0c8e730f5530181",
+        "ClientSecret": "b7819446fC7E4Da9807338ab0602A53c",
+        "OAuthClientId": "edp-api-service-dev",
+        "OAuthClientSecret": "hRZ9mNQwT1y3n8bKp0FZ4Ew7cX9rV2uL6sP3aD0mYqE"
+      },
+      "NoteCompare": {
+        "CreateSessionUrl": "http://66.10.51.30:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.64b3bb98-020c-4164-a17b-5e1705737ffa/sessions?preview=true",
+        "BlockingContinueUrl": "http://66.10.51.30:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.64b3bb98-020c-4164-a17b-5e1705737ffa/sessions/{{sessionRid}}/blockingContinue?preview=true"
+      },
+      "NoteDiscipline": {
+        "CreateSessionUrl": "http://66.10.51.30:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.aaaef23b-d48d-4de0-95e9-3695f3ade3be/sessions?preview=true",
+        "BlockingContinueUrl": "http://66.10.51.30:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.aaaef23b-d48d-4de0-95e9-3695f3ade3be/sessions/{{sessionRid}}/blockingContinue?preview=true"
+      }
+    },
+
+    "Prod": {
+      "ProxyUrl": "http://66.13.11.21:8081",
+      "Auth": {
+        "TokenUrl": "http://66.13.11.21:8081/proauthapi/token/mulesoft",
+        "ClientId": "f96b794ac59b4e42a0c8e730f5530181",
+        "ClientSecret": "b7819446fC7E4Da9807338ab0602A53c",
+        "OAuthClientId": "edp-api-service-prod",
+        "OAuthClientSecret": "X9o4H2w2u_PbZgF1shvGpdK7u3QZ0NfaHzCkArVyxmUTd0JeGd1jD2n4QqZr5b6N"
+      },
+      "NoteCompare": {
+        "CreateSessionUrl": "http://66.13.11.21:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.64b3bb98-020c-4164-a17b-5e1705737ffa/sessions?preview=true",
+        "BlockingContinueUrl": "http://66.13.11.21:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.64b3bb98-020c-4164-a17b-5e1705737ffa/sessions/{{sessionRid}}/blockingContinue?preview=true"
+      },
+      "NoteDiscipline": {
+        "CreateSessionUrl": "http://66.13.11.21:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.aaaef23b-d48d-4de0-95e9-3695f3ade3be/sessions?preview=true",
+        "BlockingContinueUrl": "http://66.13.11.21:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.aaaef23b-d48d-4de0-95e9-3695f3ade3be/sessions/{{sessionRid}}/blockingContinue?preview=true"
+      }
+    }
+  }
+}
