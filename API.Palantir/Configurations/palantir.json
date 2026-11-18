@@ -17,9 +17,9 @@
       "Auth": {
         "TokenUrl": "http://66.10.51.30:8081/proauthapi/token/mulesoft",
         "ClientId": "f96b794ac59b4e42a0c8e730f5530181",
-        "ClientSecret": "b7819446fC7E4Da9807338ab0602A53c",
+        "ClientSecret": "b781xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "OAuthClientId": "edp-api-service-dev",
-        "OAuthClientSecret": "hRZ9mNQwT1y3n8bKp0FZ4Ew7cX9rV2uL6sP3aD0mYqE"
+        "OAuthClientSecret": "hRZ9xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
       },
       "NoteCompare": {
         "CreateSessionUrl": "http://66.10.51.30:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.64b3bb98-020c-4164-a17b-5e1705737ffa/sessions?preview=true",
@@ -36,9 +36,9 @@
       "Auth": {
         "TokenUrl": "http://66.13.11.21:8081/proauthapi/token/mulesoft",
         "ClientId": "f96b794ac59b4e42a0c8e730f5530181",
-        "ClientSecret": "b7819446fC7E4Da9807338ab0602A53c",
+        "ClientSecret": "b781xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "OAuthClientId": "edp-api-service-prod",
-        "OAuthClientSecret": "X9o4H2w2u_PbZgF1shvGpdK7u3QZ0NfaHzCkArVyxmUTd0JeGd1jD2n4QqZr5b6N"
+        "OAuthClientSecret": "X9o4xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
       },
       "NoteCompare": {
         "CreateSessionUrl": "http://66.13.11.21:8081/bypass/api/v2/aipAgents/agents/ri.aip-agents..agent.64b3bb98-020c-4164-a17b-5e1705737ffa/sessions?preview=true",
